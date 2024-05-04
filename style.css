@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(142, 246, 201);
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    display: flex;
+}
+
+.side-bar{
+    height: 1000px;
+    width:160px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon-button{
+    margin: auto;
+    position: relative;
+    top:2%;
+    left:30%;
+    align-items: center;
+}
+
+#icon-button-text{
+    font-size: 28px;
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    right:25%;
+    top:-20px;
+}
+
+#profile-div{
+    position: relative;
+    height: 1000px;
+    width: 1000px;
+    background-color: aliceblue;
+    display:flexbox;
+    left:100px;
+    top:30px;
+    border-radius: 10px;
+}
+
+#name{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    top: 5%;
+    left: 33%;
+}
+
+
+@media (max-width: 600px) {
+    /* Adjust dimensions for smaller screens */
+    .side-bar {
+      width: 150px;
+      height: 150px;
+      top:15px;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 900px) {
+    /* Adjust dimensions for medium-sized screens */
+    .side-bar {
+      width: 300px;
+      height: 300px;
+      top: 60px;
+    }
+  }
