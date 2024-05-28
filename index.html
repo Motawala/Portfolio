@@ -13,19 +13,45 @@
 
 </head>
 <body>
-    <div id = "container">
-        <div id="side-bar" class="side-bar">
-            <i class="fa fa-user" style="font-size:80px" id="icon-button">
-                <p id="icon-button-text">About me</p>
-            </i><br>
-            <i class="fa fa-bars" style="font-size:80px" id = "icon-button">
-                <p id="icon-button-text">Resume</p>
-            </i>
-        </div>
-        <div class="profile-div" id="profile-div">
-            <img src="./images/profile2.jpg" alt="Profile Picture" id="profile-image" height="400px" width="400px" style="position:relative;top:5%;left:25%; border-radius:50%;border:5px solid black; display: flex;">
-            <p id="name">Karan Patel</p>
-        </div>
-        
+    <div id='background-image-container'>
+        <span id="img-span">
+            <img id="woods-bg" src="./images/woods.jpg" sizes="100vw">
+            <img id='profile-image' src="./images/prof.png">
+        </span>
+
     </div>
+    <div id="profile-container">
+        <div id="name-title">
+            <h1 id="name-h">Karan Patel</h1>
+        </div>
+    </div>
+    <div id="profile-desc">
+        <blockquote id="block-quote">
+            <h2 id="desc">Hii, I am Karan Patel - recent Computer Science graduate based in Albany, NY, with hands-on experience in <a href="https://github.com/Motawala" id="git-link">frontend development,
+                network security, and full-stack web applications.</a> Currently pursuing a Master of Computer Science at the University at Albany, with a strong foundation in programming,
+                data analysis, and system administration.</h2>
+        </blockquote>
+    </div>
+    <div id="div-sections">
+        <section id="contact">
+            <h2 id="contacts-h">Contact</h2>
+            <div id="div-email">
+                <a href="mailto:karanp3898@gmail.com"><i class="fa fa-envelope"></i> Email &rarr;</a>
+                <p>Email:<br>karanp3898@gmail.com</p>
+            </div>
+            <div id="div-Instagram">
+                <a href="https://www.instagram.com/_karanpat?igsh=d3BkZGJvc3B4MGc5&utm_source=qr" target="_blank"><i class="fa fa-instagram"></i> Instagram &rarr;</a>
+                <p>Profile<br>Photos and Videos</p>
+            </div>
+        </section>
+    </div>
+    <!--<footer id="footer">
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="https://github.com/Motawala" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
+                <li><a href="mailto:karanp3898@gmail.com"><i class="fa fa-envelope"></i> Email</a></li>
+                <li><a href="tel:984-279-8988"><i class="fa fa-phone"></i> Phone</a></li>
+            </ul>
+        </div>
+    </footer>!-->
 </body>
