@@ -39,10 +39,11 @@ body{
     height:10%;
     width:15%;
 }
-
 #contact{
-
+    position: relative;
+    width:40%;
 }
+
 
 #contact a{
     color: orange;
@@ -62,6 +63,24 @@ body{
     font-family: Arial, sans-serif	;
 }
 
+#Resources a{
+    color: orange;
+    font-size: 30px;
+    font-family: Arial, sans-serif	;
+}
+
+#Resources i{
+    color: orange;
+    font-size: 25px;
+
+}
+
+#Resources p{
+    color: rgb(141, 141, 141);
+    font-size: 25px;
+    font-family: Arial, sans-serif	;
+}
+
 #name-h{
     color: #424242;
     font-family: Impact, fantasy;
@@ -71,21 +90,22 @@ body{
     transform: scaleX(1.2); /* Stretch horizontally by a factor of 2 */
 }
 
+
 #div-email{
     border: 1px grey groove;
     border-radius: 5px;
-    width: 20%;
-    padding: 20px;
+    width: 47%;
+    padding: 10px;
     float: left;
 }
 
 #div-Instagram{
     border: 1px grey groove;
     border-radius: 5px;
-    width: 20%;
-    padding: 20px;
+    width: 36%;
+    padding: 10px;
     float: left;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 
 #profile-desc{
@@ -116,9 +136,11 @@ body{
     position: relative;
     height: 400px;
     margin: auto;
-    width:1500px;
-    margin-top:20px;
+    width:1430px;
+    margin-top:50px;
     border-top: 2px grey groove;
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -128,40 +150,27 @@ body{
     font-size: 40px;
 }
 
-/* Footer Styles */
-#footer {
-    background-color: #adadad;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+#Resources{
+    position: relative;
+    width: 50%;
+    border-left:2px groove black;
+    height:100%;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 20px;
 }
 
-
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
+#resource-h{
+    color:#3d3d3d;
+    font-family: Noto Sans, sans-serif;
+    font-size: 40px;
 }
 
-.footer-links {
-    list-style: none;
-    padding: 0;
-    margin: 20px;
+#Resources div{
+    border: 1px grey groove;
+    border-radius: 5px;
+    width: 35%;
+    padding: 10px 0px 0px 10px;
+    float: left;
+    margin:10px
 }
 
-.footer-links li {
-    display: inline;
-    margin: 0px 100px;
-    font-size: 30px;
-}
-
-.footer-links a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
-    text-decoration: underline;
-}
