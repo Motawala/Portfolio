@@ -126,7 +126,7 @@ const projectsData = [
     },
     {
         title: "SUNY RDaF Explorer Prototype",
-        description: "Developed a deep learning model for analyzing aerial forest imagery with region-based CNNs. Achieved 95% accuracy in forest density classification and automated tree counting. Published research results at NY State AI Conference.",
+        description: "A web-based prototype tool designed to facilitate interactive exploration of the NIST Research Data Framework (RDaF) for guiding research data management discussions across SUNY campuses.",
         technologies: ["Js", "HTML", "CSS", "JointJS"],
         link: "https://sunyoried.github.io/rdaf/"
     }
