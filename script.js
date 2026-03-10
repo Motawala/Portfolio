@@ -45,7 +45,7 @@ const smoothScroll = () => {
 // Experience Data
 const experienceData = [
     {
-        title: "Student Intern",
+        title: "Programmer Analyst Intern",
         company: "Office of Research Innovation and Economic Development, SUNY Systems Administration, Albany, NY",
         period: "January 2024 - Present",
         description: "Developed interactive data visualizations using JointJS to create prototype data models for the Research Department. Built user interfaces with JointJS, HTML, CSS, and JSON-LD to enhance user experience. Processed large datasets (30,000-50,000 records) using Python Pandas for curation, aggregation, and de-duplication. Integrated APIs including Mailchimp, Elsevier, OpenAlex, and IDExchange for comprehensive data analysis. Created Python-based applications with Tkinter and Bootstrap that automated data cleanup and analysis. Implemented machine learning models for pattern recognition to streamline data processing workflows. Led development of an open-source web application (RDAF Tool) that transforms Excel data into interactive visualizations using JSON-LD and JavaScript."
