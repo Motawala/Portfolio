@@ -1,6 +1,4 @@
-python-tds
+pyodbc
 pandas
-numpy
-python-dateutil
-pytz
-tzdata
+azure-identity
+colorlog
